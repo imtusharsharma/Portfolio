@@ -323,19 +323,28 @@
 <script src="script.js"></script>
 </body>
 </html>
+    <div class="certificate-modal" id="certificateModal" aria-hidden="true">
     <div class="certificate-modal-backdrop"></div>
-    <div class="certificate-modal-content" role="dialog" aria-modal="true" aria-labelledby="modalCertificateTitle">
-      <button class="certificate-close" type="button" aria-label="Close certificate">×</button>
+
+    <div class="certificate-modal-content" role="dialog" aria-modal="true"
+         aria-labelledby="modalCertificateTitle">
+
+      <button class="certificate-close" type="button"
+              aria-label="Close certificate">×</button>
+
       <div class="modal-certificate-header">
         <div>
           <span id="modalCertificateProvider"></span>
           <h3 id="modalCertificateTitle"></h3>
-          <p id="modalCertificateDescription" class="modal-certificate-description"></p>
+          <p id="modalCertificateDescription"
+             class="modal-certificate-description"></p>
         </div>
       </div>
+
       <img id="modalCertificateImage" src="" alt="Selected certificate">
     </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
